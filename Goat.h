@@ -26,7 +26,13 @@ public:
     string get_color() const        { return color; }
 
     // write overloaded < operator for the std::set
-    bool operator<
+    bool operator<(const Goat& g) const{
+	if (name != g.get_name())
+	    return name < g.get_name();
+	if (age != g.get_age())
+	    return age < g.get_age();
+	return color < g.get_color();
+    }
 };
 
 #endif
