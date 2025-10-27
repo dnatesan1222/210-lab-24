@@ -60,7 +60,7 @@ int main() {
  	else
 	    run = false;
     }
-    cout << "Thanks for using the GOAT MANAGER 3001!" << endl;
+    cout << "Thanks for using the GOAT MANAGER 3002!" << endl;
     return 0;
 }
 
